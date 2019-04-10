@@ -112,7 +112,7 @@ public class LearnJdbcTest {
 
             if (rs.next()) {
                 // mmm... how many rows was actually added in the V2__add_fruit.sql migration file
-                assertEquals(3, rs.getInt("fruit_count"));
+                assertEquals(4, rs.getInt("fruit_count"));
             }
 
             // todo - add a V2__add_fruit.sql file in the src/main/db/migration folder
